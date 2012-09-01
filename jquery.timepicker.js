@@ -406,7 +406,7 @@ requires jQuery 1.6+
 			case 27: // escape
 				list.find('li').removeClass('ui-timepicker-selected');
 				list.hide();
-				break;
+				return false;
 
 			case 9:
 			case 16:
